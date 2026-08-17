@@ -1,0 +1,12 @@
+{
+  "name": "autovalue-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gemeinsame Fahrzeug-Einkaufsverwaltung für zwei Personen",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

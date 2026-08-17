@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: autovalue-pro
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    autoDeploy: true
+    disk:
+      name: autovalue-pro-data
+      mountPath: /app/data
+      sizeGB: 1
